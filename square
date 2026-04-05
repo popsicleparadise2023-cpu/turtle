@@ -1,0 +1,17 @@
+import turtle
+
+t = turtle.Turtle()
+screen = t.screen
+
+screen.bgcolor("orange")
+screen.setup(300,300)
+
+t.fillcolor("Blue")
+
+
+
+for i in range(4):
+ t.forward(100)
+ t.left(90)
+
+t.done()
